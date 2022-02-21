@@ -27,7 +27,7 @@ function App() {
     setAerror("");
     setBerror("");
     async function fetchBalances() {
-      const request = await fetch("http://localhost:3001/balances", {
+      const request = await fetch("https://money-mover-server.herokuapp.com/", {
         method: "GET",
         credentials: "include",
         headers: {
@@ -60,16 +60,19 @@ function App() {
           setAerror("Insufficent funds");
         } else {
           async function sendMoney() {
-            const request = await fetch("http://localhost:3001/moneyToB", {
-              method: "POST",
-              headers: {
-                "Content-type": "application/json",
-              },
-              credentials: "include",
-              body: JSON.stringify({
-                money: aSendValue,
-              }),
-            }).then((res) => {
+            const request = await fetch(
+              "https://money-mover-server.herokuapp.com/moneyToB",
+              {
+                method: "POST",
+                headers: {
+                  "Content-type": "application/json",
+                },
+                credentials: "include",
+                body: JSON.stringify({
+                  money: aSendValue,
+                }),
+              }
+            ).then((res) => {
               if (res.status === 200) {
                 setRefresh(!refresh);
                 setAddTake(aSendValue);
@@ -111,16 +114,19 @@ function App() {
           setBerror("Insufficient funds");
         } else {
           async function sendMoney() {
-            const request = await fetch("http://localhost:3001/moneyToA", {
-              method: "POST",
-              headers: {
-                "Content-type": "application/json",
-              },
-              credentials: "include",
-              body: JSON.stringify({
-                money: bSendValue,
-              }),
-            }).then((res) => {
+            const request = await fetch(
+              "https://money-mover-server.herokuapp.com/moneyToA",
+              {
+                method: "POST",
+                headers: {
+                  "Content-type": "application/json",
+                },
+                credentials: "include",
+                body: JSON.stringify({
+                  money: bSendValue,
+                }),
+              }
+            ).then((res) => {
               if (res.status === 200) {
                 setRefresh(!refresh);
                 setAddTake(bSendValue);

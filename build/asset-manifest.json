@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MoneyMover-client/static/css/main.582fae7f.chunk.css",
-    "main.js": "/MoneyMover-client/static/js/main.56e1921d.chunk.js",
-    "main.js.map": "/MoneyMover-client/static/js/main.56e1921d.chunk.js.map",
+    "main.js": "/MoneyMover-client/static/js/main.687c8928.chunk.js",
+    "main.js.map": "/MoneyMover-client/static/js/main.687c8928.chunk.js.map",
     "runtime-main.js": "/MoneyMover-client/static/js/runtime-main.2b026afa.js",
     "runtime-main.js.map": "/MoneyMover-client/static/js/runtime-main.2b026afa.js.map",
     "static/css/2.0a9ec390.chunk.css": "/MoneyMover-client/static/css/2.0a9ec390.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.a67bffa6.chunk.js",
     "static/css/main.582fae7f.chunk.css",
-    "static/js/main.56e1921d.chunk.js"
+    "static/js/main.687c8928.chunk.js"
   ]
 }

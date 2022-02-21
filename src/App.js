@@ -4,8 +4,8 @@ import * as ReactStrap from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Collapse, CardBody, Card } from "reactstrap";
 function App() {
-  const [balanceA, setBalanceA] = useState(0);
-  const [balanceB, setBalanceB] = useState(0);
+  const [balanceA, setBalanceA] = useState(null);
+  const [balanceB, setBalanceB] = useState(null);
   const [Asend, setASend] = useState(false);
   const [Bsend, setBsend] = useState(false);
   const [Ahistory, setAhistory] = useState([]);

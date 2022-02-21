@@ -27,7 +27,7 @@ function App() {
     setAerror("");
     setBerror("");
     async function fetchBalances() {
-      const request = await fetch("https://money-mover-server.herokuapp.com/", {
+      const request = await fetch("https://money-mover-server.herokuapp.com", {
         method: "GET",
         credentials: "include",
         headers: {

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MoneyMover-client/static/css/main.3eb2659d.chunk.css",
+    "main.css": "/MoneyMover-client/static/css/main.df211a18.chunk.css",
     "main.js": "/MoneyMover-client/static/js/main.27d82322.chunk.js",
     "main.js.map": "/MoneyMover-client/static/js/main.27d82322.chunk.js.map",
     "runtime-main.js": "/MoneyMover-client/static/js/runtime-main.2b026afa.js",
@@ -12,14 +12,14 @@
     "static/js/3.9102a47a.chunk.js.map": "/MoneyMover-client/static/js/3.9102a47a.chunk.js.map",
     "index.html": "/MoneyMover-client/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/MoneyMover-client/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.3eb2659d.chunk.css.map": "/MoneyMover-client/static/css/main.3eb2659d.chunk.css.map",
+    "static/css/main.df211a18.chunk.css.map": "/MoneyMover-client/static/css/main.df211a18.chunk.css.map",
     "static/js/2.a67bffa6.chunk.js.LICENSE.txt": "/MoneyMover-client/static/js/2.a67bffa6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2b026afa.js",
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.a67bffa6.chunk.js",
-    "static/css/main.3eb2659d.chunk.css",
+    "static/css/main.df211a18.chunk.css",
     "static/js/main.27d82322.chunk.js"
   ]
 }

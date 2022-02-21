@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #61dafb;
 }
 
 .App-logo {
@@ -37,79 +38,76 @@
   }
 }
 
-
 /* My css */
-#title{
+#title {
   margin-top: 15vh;
   margin-bottom: 30px;
 }
-.mt-10{
+.mt-10 {
   margin-top: 10px;
 }
-.accountName{
+.accountName {
   padding-bottom: 10px;
 }
-#balance{
-  padding-bottom: .6em;
+#balance {
+  padding-bottom: 0.6em;
 }
-button{
-width: 100%;
+button {
+  width: 100%;
 }
-#aside{
+#aside {
   position: absolute;
   left: 41.5%;
   top: 32%;
 }
-#bside{
+#bside {
   position: absolute;
   right: 5%;
   top: 32%;
 }
 
-.pos{
+.pos {
   color: green;
   transition: 1s;
   transform: translateY(-30px);
 }
-.neg{
+.neg {
   color: red;
   transition: 1s;
   transform: translateY(30px);
-
 }
-.noVis{
+.noVis {
   visibility: hidden;
   position: absolute;
 }
-.borderR{
+.borderR {
   border-right: black solid 1px;
 }
-#borderR{
+#borderR {
   border-right: black solid 1px;
 }
-.error{
+.error {
   margin: 0;
   color: red;
-  font-size: .9em;
+  font-size: 0.9em;
 }
-.historyPos{
-  font-size: .8em;
+.historyPos {
+  font-size: 0.8em;
   color: green;
   margin: 0;
-  margin-bottom: .4em;
+  margin-bottom: 0.4em;
   border-bottom: 1px solid rgb(185, 185, 185);
-
 }
-.historyNeg{
-  font-size: .8em;
+.historyNeg {
+  font-size: 0.8em;
   color: red;
   margin: 0;
-  margin-bottom: .4em;
+  margin-bottom: 0.4em;
   border-bottom: 1px solid rgb(185, 185, 185);
 }
-.open{
+.open {
   display: block;
 }
-.closed{
+.closed {
   display: none;
 }

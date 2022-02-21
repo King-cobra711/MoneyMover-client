@@ -171,7 +171,7 @@ function App() {
         </ReactStrap.Row>
         <ReactStrap.Row>
           <ReactStrap.Col id="balance" className="borderR">
-            Balance: ${balanceA}
+            Balance: ${balanceA == null ? "..." : balanceA}
             {showAddTake ? (
               <p id="aside" className={Asend ? "neg" : "pos"}>
                 {Asend ? "- $" + addTake : "+ $" + addTake}
@@ -185,7 +185,7 @@ function App() {
             id="balance"
             className="borderL"
           >
-            Balance: ${balanceB}
+            Balance: ${balanceB == null ? "..." : balanceB}
             {showAddTake ? (
               <p id="bside" className={Bsend ? "neg" : "pos"}>
                 {Bsend ? "- $" + addTake : "+ $" + addTake}

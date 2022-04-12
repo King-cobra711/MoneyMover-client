@@ -49,7 +49,8 @@ function App() {
     fetchBalances();
   }, [refresh]);
 
-  const submitA = () => {
+  const submitA = (e) => {
+    e.preventDefault();
     if (aSendValue === 0 || aSendValue === "0") {
       setAerror("Can't send $0");
     } else {
@@ -103,7 +104,8 @@ function App() {
       }
     }
   };
-  const submitB = () => {
+  const submitB = (e) => {
+    e.preventDefault();
     if (bSendValue === 0 || bSendValue === "0") {
       setBerror("Can't send $0");
     } else {
@@ -197,7 +199,7 @@ function App() {
         </ReactStrap.Row>
         <ReactStrap.Row>
           <ReactStrap.Col className="borderR">
-            <ReactStrap.Form>
+            <ReactStrap.Form onSubmit={submitA}>
               <ReactStrap.Form.Group controlId="AmountA">
                 <ReactStrap.Form.Control
                   onBlur={() => setBSendValue(0)}
@@ -217,7 +219,7 @@ function App() {
             </ReactStrap.Form>
           </ReactStrap.Col>
           <ReactStrap.Col className="borderL">
-            <ReactStrap.Form>
+            <ReactStrap.Form onSubmit={submitB}>
               <ReactStrap.Form.Group controlId="AmountB">
                 <ReactStrap.Form.Control
                   onBlur={() => setASendValue(0)}
